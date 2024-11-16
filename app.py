@@ -57,7 +57,7 @@ def generate_response(query):
     """
     key = apikey
    
-    client = Groq(api_key=key)
+    client = Groq(api_key=apikey)
     completion = client.chat.completions.create(
         model="llama3-groq-70b-8192-tool-use-preview",
         messages=[
