@@ -11,7 +11,8 @@ from dotenv import load_dotenv
 load_dotenv()  # Load environment variables from .env file
 
 apikey = os.getenv('api_key')  # Retrieve the API key from environment variables
-
+if(apikey):
+    print("I have api key")
 
 # Load pre-trained sentence embedding model
 embedding_model = SentenceTransformer('paraphrase-MiniLM-L6-v2')
