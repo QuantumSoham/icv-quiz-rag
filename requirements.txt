@@ -6,4 +6,4 @@ numpy
 rank-bm25
 requests
 python-dotenv
-python-dotenv
+groq
