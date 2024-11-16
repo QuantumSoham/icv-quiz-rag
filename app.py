@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 
 load_dotenv()  # Load environment variables from .env file
 
-apikey = os.getenv('GROQ_API_KEY')  # Retrieve the API key from environment variables
+apikey = os.getenv('api_key')  # Retrieve the API key from environment variables
 
 
 # Load pre-trained sentence embedding model
